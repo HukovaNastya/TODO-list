@@ -33,6 +33,9 @@ form button {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+form input {
+    outline: none;
+}
 form button:hover {
     background: #ff6f47;
     color: white;
@@ -66,7 +69,7 @@ form button:hover {
 }
 
 .trash-btn,
-.complete-btn {
+.completed-btn {
     background: #ff6f47;
     color: white;
     border: none;
@@ -74,8 +77,8 @@ form button:hover {
     cursor: pointer;
     font-size: 1rem;
 }
-.complete-btn {
-    background: rgb(11, 212, 162);
+.completed-btn {
+    background: rgb(57, 119, 57);
 }
 .todo-item {
     padding: 0rem 0.5rem;
