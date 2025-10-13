@@ -41,13 +41,13 @@ form button:hover {
     color: white;
 }
 
-.todo-container{
+.todo-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.todo-list{
+.todo-list {
     min-width: 30%;
     list-style: none;
 }
@@ -62,7 +62,7 @@ form button:hover {
     align-items: center;
 }
 
-.todo-input:focus{
+.todo-input:focus {
     outline: none;
 }
 
@@ -83,6 +83,10 @@ form button:hover {
     background: #397739;
 }
 
-.todo-item  {
-  padding: 0 0.5rem;
+.todo-item {
+    padding: 0 0.5rem;
+}
+
+.fa-trash, .fa-check {
+    pointer-events: none;
 }
